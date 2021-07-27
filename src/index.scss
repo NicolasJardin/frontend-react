@@ -1,5 +1,22 @@
-.App {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: $text-color;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: $background-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
 }

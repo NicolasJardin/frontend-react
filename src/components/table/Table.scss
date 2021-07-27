@@ -1,0 +1,26 @@
+@import "../../variables";
+
+.table {
+  border-collapse: collapse;
+  width: 98%;
+  margin: 0 1%;
+
+  &__header {
+    text-align: left;
+    background-color: $background-color;
+  }
+
+  &__column {
+    padding: 8px 20px;
+    &--small {
+      width: 30%;
+    }
+  }
+
+  td {
+    padding: 8px 20px;
+  }
+  tr {
+    border: 1px solid $background-color;
+  }
+}

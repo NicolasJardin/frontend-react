@@ -1,0 +1,22 @@
+@import "../../variables";
+
+header {
+  margin-bottom: 5rem;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $dark-color;
+  padding: 1rem;
+  z-index: 10;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+  &__image {
+    width: 5rem;
+  }
+}

@@ -1,0 +1,17 @@
+@import "../../variables";
+
+.card {
+  background-color: $light-color;
+  margin: 5vh 1.5vw;
+  border-radius: 5px;
+
+  &__title {
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
+  &__body {
+    padding-bottom: 1rem;
+  }
+}

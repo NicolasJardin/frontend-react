@@ -1,0 +1,16 @@
+@import "../../variables";
+
+.pagination {
+  display: flex;
+
+  &__count {
+    flex: 30;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #494949;
+  }
+
+  &__dark-icon {
+    color: $background-color;
+  }
+}
